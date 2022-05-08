@@ -1,0 +1,9 @@
+digraph time_source_tree {
+  rankdir="BT";
+  "3" -> "1";
+  "4" -> "1";
+  "7" -> "3";
+  "1" [fillcolor="yellow" style="filled"];
+  "3" [fillcolor="yellow" style="filled"];
+  "1" [rank="source" fillcolor="#00FF7F" style="filled"];
+}
